@@ -1,0 +1,7 @@
+version: '3.4'
+services:
+    router:
+        build:
+            context: .
+        volumes:
+            - ./nexus.json:/etc/nexus/nexus.json
